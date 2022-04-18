@@ -99,7 +99,7 @@ describe('promedioResultadosTest(testScores)', function() {
   });
 });
 
-describe('numeroMasGrande(numbers)', function() {
+describe.only('numeroMasGrande(numbers)', function() {
   it('should return the largest number', function() {
     expect(numeroMasGrande([10, 10, 16, 12])).toBe(16);
     expect(numeroMasGrande([97, 100, 80, 55, 72, 94])).toBe(100);
