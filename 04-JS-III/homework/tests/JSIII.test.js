@@ -99,7 +99,7 @@ describe('promedioResultadosTest(testScores)', function() {
   });
 });
 
-describe.only('numeroMasGrande(numbers)', function() {
+describe('numeroMasGrande(numbers)', function() {
   it('should return the largest number', function() {
     expect(numeroMasGrande([10, 10, 16, 12])).toBe(16);
     expect(numeroMasGrande([97, 100, 80, 55, 72, 94])).toBe(100);
@@ -167,7 +167,7 @@ describe('mesesDelAño(array)', function() {
   });
 });
 
-describe('mayorACien(array)', function() {
+describe.only('mayorACien(array)', function() {
   it('should return an array with values grater than 100', function() {
     var integers = [100, 4, 56, 78, 200, 120, 7, 160, 148, 22];
     expect(mayorACien(integers)).toEqual([200, 120, 160, 148]);
