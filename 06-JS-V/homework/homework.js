@@ -44,7 +44,8 @@ function agregarStringInvertida() {
   }
   return stringInvertida;
   } 
-
+// this.split('').reverse().join('')
+// convierte en un arrey las letras con split, despues los da vuelta con reverse y los une con join (que no tiene nada, para que no tenga espacios)
 }
 
 // ---------------------------------------------------------------------------//
